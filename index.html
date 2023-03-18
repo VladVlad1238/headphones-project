@@ -2,23 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <title>Nothing Ear</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link sizes="16x16" rel="icon" href="img/miniLogo.png">
 
     <link rel="stylesheet" href="index.css">
 
-    <title>Nothing Ear</title>
 </head>
 <body>
-   <!--nav start-->
+    <!--nav start-->
     <div class="nav__section">
         <div class="nav__container">
             <nav class="nav__lists">
-                <a class="nav__list" href="#">МОДЕЛИ</a>
-                <a class="nav__list" href="#">ФУНКЦИИ</a>
-                <a class="nav__list" href="#">ТРЕНИРОВКИ</a>
-                <a class="nav__list" href="#">СОЦИАЛЬНЫЕ СЕТИ</a>
+                <a class="nav__list" href="#headphones__section">МОДЕЛИ</a>
+                <a class="nav__list" href="#function__section">ФУНКЦИИ</a>
+                <a class="nav__list" href="#powerful-training__section">ТРЕНИРОВКИ</a>
+                <a class="nav__list" href="#social-contacts__section">СОЦИАЛЬНЫЕ СЕТИ</a>
             </nav>
         </div>
     </div>
@@ -36,7 +38,7 @@
 
     <!--main section start-->
     <!--headpshones start-->
-    <div class="headphones__section">
+    <div class="headphones__section" id="headphones__section">
         <ul class="headphones__container">
             <li class="headphones__list">
                 <h2 class="headphones__title">Наушники Ear White</h2>
@@ -60,20 +62,20 @@
     </div>
     <!--headphones finish-->
     <!--introduction start-->
-    <div class="introduction__section">
-        <div class="introduction__container">
-            <h2 class="introduction__title">Сделайте их вашими</h2>
-            <p class="introduction__content">Настройте эквалайзеры, жесты, функцию «Найти наушники» и многое другое 
+    <div class="function__section" id="function__section">
+        <div class="function__container">
+            <h2 class="function__title">Сделайте их вашими</h2>
+            <p class="function__content">Настройте эквалайзеры, жесты, функцию «Найти наушники» и многое другое 
                 с помощью приложения ear (1), доступного для iOS и Android.
             </p>
-            <p class="introduction__content">Мгновенное сопряжение с устройствами, совместимыми с Google Fast Pair. 
+            <p class="function__content">Мгновенное сопряжение с устройствами, совместимыми с Google Fast Pair. 
                 Просто откройте корпус, нажмите пару и наслаждайтесь
             </p>
         </div>
     </div>
     <!--introduction finish-->
     <!--powerful training start-->
-    <div class="powerful-training__section">
+    <div class="powerful-training__section" id="powerful-training__section">
         <h2 class="powerful-training__header">Ударные тренировки. Нет поту</h2>
         <ul class="powerful-training__container">
             <li class="powerful-training__list">
@@ -136,19 +138,19 @@
     <!--clear volume finish-->
 
     <!--social contacts start-->
-    <div class="social-contacts__section">
+    <div class="social-contacts__section" id="social-contacts__section">
         <nav class="social-contacts__container">
             <ul class="social-contacts__lists">
                 <li class="social-contacts__list">
-                    <a href="#" class="social-contacts__content">inst</a>
+                    <a href="https://www.instagram.com/nothing/" class="social-contacts__content">inst</a>
                 </li>
 
                 <li class="social-contacts__list">
-                    <a href="#" class="social-contacts__content">yt</a>
+                    <a href="https://www.youtube.com/watch?v=VCq77iRhba8" class="social-contacts__content">yt</a>
                 </li>
 
                 <li class="social-contacts__list">
-                    <a href="#" class="social-contacts__content">twt</a>
+                    <a href="https://twitter.com/nothing?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="social-contacts__content">twt</a>
                 </li>
 
                 <li class="social-contacts__list">
@@ -165,20 +167,22 @@
         <nav class="footer__container">
             <ul class="footer__lists">
                 <li class="footer__list">
-                    <a href="" class="footer__content">МОДЕЛИ</a>
+                    <a href="#headphones__section" class="footer__content">МОДЕЛИ</a>
                 </li>
                 <li class="footer__list">
-                    <a href="" class="footer__content">ФУНКЦИИ</a>
+                    <a href="#function__section" class="footer__content">ФУНКЦИИ</a>
                 </li>
                 <li class="footer__list">
-                    <a href="" class="footer__content">ТРЕНИРОВКИ</a>
+                    <a href="#powerful-training__section" class="footer__content">ТРЕНИРОВКИ</a>
                 </li>
                 <li class="footer__list">
-                    <a href="" class="footer__content">СОЦИАЛЬНЫЕ СЕТИ</a>
+                    <a href="#social-contacts__section" class="footer__content">СОЦИАЛЬНЫЕ СЕТИ</a>
                 </li>
             </ul>
+            <div class="nothing">
+                <p class="nothing__text">nothing</p>
+            </div>
         </nav>
-        <p class="content__nothing">nothing</p>
     </footer>
     <!--footer section finish-->
 </body>
