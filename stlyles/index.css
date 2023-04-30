@@ -1,6 +1,6 @@
 @import "../stlyles/header.css";
 @import "../stlyles/burger.css";
-
+@import "../stlyles/intro.css";
 
 
 
@@ -36,31 +36,7 @@ body {
 }
 
 /*
-.header__head {
-    margin-bottom: 42px;
-    font-weight: 700;
-    font-size: 150px;
-    line-height: 133px;
-    text-align: center;
-    letter-spacing: -0.07em;
-    color: #FF25C2;
-}
-.header__text {
-    margin: 0 auto;
-    width: 430px;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
-}
-.header__image {
-    margin-bottom: 80px;
-    margin-left: 168px;
-    width: 819px;
-    height: 776px;
-}
+
 .headphones__container {
     margin: 0 auto;
     width: 1150px;
